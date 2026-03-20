@@ -1,3 +1,29 @@
 {
-  "cSpell.words": ["excalidraw", "fastapi", "Pydantic", "Suzu", "venv"]
+  "cSpell.words": [
+    "anyio",
+    "certifi",
+    "colorama",
+    "dnspython",
+    "dotenv",
+    "excalidraw",
+    "fastapi",
+    "fastar",
+    "httpcore",
+    "httptools",
+    "httpx",
+    "idna",
+    "mdurl",
+    "Pydantic",
+    "Pygments",
+    "pyyaml",
+    "rignore",
+    "shellingham",
+    "starlette",
+    "Suzu",
+    "typer",
+    "urllib",
+    "uvicorn",
+    "venv",
+    "watchfiles"
+  ]
 }
