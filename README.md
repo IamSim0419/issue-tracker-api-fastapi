@@ -22,7 +22,7 @@ A mini production-style REST API project built with FastAPI for tracking issues.
 1. Clone the repository:
 
 ```bash
-git clone
+git clone https://github.com/IamSim0419/issue-tracker-api-fastapi.git
 cd fastapi-issue-tracker
 ```
 
