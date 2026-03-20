@@ -1,0 +1,23 @@
+[
+  {
+    "id": "2ce0db2a-34c4-470a-8025-7a22f1751c25",
+    "title": "First issue",
+    "description": "This is the first issue",
+    "priority": "medium",
+    "status": "open"
+  },
+  {
+    "id": "d5abdfbc-211c-4b55-aa2a-b806196b5e5c",
+    "title": "Updated 2nd issue",
+    "description": "This is the updated issue",
+    "priority": "high",
+    "status": "open"
+  },
+  {
+    "id": "1ab6e97b-c98a-4196-a112-abf11b033257",
+    "title": "Third Issue",
+    "description": "Updated third issue",
+    "priority": "medium",
+    "status": "open"
+  }
+]

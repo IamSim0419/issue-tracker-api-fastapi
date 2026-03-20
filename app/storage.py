@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 
 DATA_DIR = Path("data")
-DATA_FILE = DATA_DIR / "issue_data.json" 
+DATA_FILE = DATA_DIR / "issue_data.json" # we will store our issues in this JSON file
 
 def load_data():
     if DATA_FILE.exists():
@@ -10,7 +10,7 @@ def load_data():
             content = f.read()
             if content.strip():
                 return json.loads(content)
-    return []
+    return [] # Return an empty list if file doesn't exist or is empty
 
 def save_data(data):
     DATA_DIR.mkdir(parents=True, exist_ok=True)

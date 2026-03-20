@@ -15,7 +15,7 @@ class IssuePriority(str, Enum):
 class IssueCreate(BaseModel):
     title: str = Field(min_length=3, max_length=100)
     description: str = Field(min_length=5)
-    priority: IssuePriority = Field(IssuePriority.medium)
+    priority: IssuePriority = Field(IssuePriority.medium) # Default to medium priority
 
 class IssueUpdate(BaseModel):
     title: Optional[str] = Field(default=None, max_length=100)
